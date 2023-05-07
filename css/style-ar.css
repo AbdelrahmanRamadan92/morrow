@@ -162,6 +162,14 @@ body{
       .navbar>.container .navbar-brand{
           margin-right: 20px !important
       }
+      .fw_800{
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .fw_300{
+        font-size: 30px;
+
+    }
       .mouse_scroll{
           display: none;
       }
@@ -170,7 +178,7 @@ body{
   
   /* Start Section-Padding */
   .section_padding{
-      padding: 100px 0;
+      padding: 50px 0;
   }
   .pb_70{
       padding-bottom: 70px;
@@ -857,12 +865,12 @@ body{
   .about2-wrap:before{
       content: '';
       position: absolute;;
-      width: 400px;
-      height: 400px;
-      right: 0;
-      top: -90px;
-      background: url(../images/square.png) no-repeat center center;
-      background-size: contain
+      /* width: 400px; */
+      /* height: 400px; */
+      /* right: 0;
+      top: -90px; */
+      /* background: url(../images/square.png) no-repeat center center; */
+      /* background-size: contain */
   }
   .purple-bg{
       background: #631eeb;
@@ -1093,11 +1101,19 @@ body{
   }
    
   @media (min-width: 993px){
-      .counter-v2 .facts-wrapper{
-          position: relative;
-          margin-top: -200px;
-          background: #fff;
-      }
+    .counter-v2 .facts-wrapper{
+        position: relative;
+        margin-top: -200px;
+        height: 600px;
+    }
+    .counter-v2 .facts-wrapper img{
+        width: 100%; /* set the image width to 100% */
+        height: 100%; /* set the image height to 100% */
+        object-fit: cover; /* scale the image to cover the container */
+        position: absolute; /* position the image absolutely within the container */
+        top: 0; /* position the image at the top of the container */
+        left: 0; /* position the image at the left of the container */
+    }
   }
   /* ----------------------------------------------------------------
       [ End Counter ]

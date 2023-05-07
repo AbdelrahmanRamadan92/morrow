@@ -163,10 +163,10 @@ a:hover{
     }
     .fw_800{
         font-weight: 300;
-        font-size: 30px;
+        font-size: 28px;
     }
     .fw_300{
-        font-size: 33px;
+        font-size: 28px;
     }
     .mouse_scroll{
         display: none;
@@ -862,9 +862,9 @@ a:hover{
 .about2-wrap:before{
     content: '';
     position: absolute;;
-    width: 400px;
+    /* width: 400px;
     height: 400px;
-    left: 0;
+    left: 0; */
     top: -90px;
     /* background: url(../images/square.png) no-repeat center center; */
     /* background-size: cover */
@@ -1111,6 +1111,9 @@ a:hover{
         position: absolute; /* position the image absolutely within the container */
         top: 0; /* position the image at the top of the container */
         left: 0; /* position the image at the left of the container */
+    }
+    .height-250{
+        height: 250px;
     }
 
 }
