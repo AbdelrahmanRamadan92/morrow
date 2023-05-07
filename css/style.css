@@ -1101,8 +1101,8 @@ a:hover{
 @media (min-width: 993px){
     .counter-v2 .facts-wrapper{
         position: relative;
-        margin-top: -200px;
-        background: #fff;
+        margin-top: -250px;
+        /* background: #fff; */
     }
 }
 /* ----------------------------------------------------------------
