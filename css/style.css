@@ -814,7 +814,7 @@ a:hover{
     content: '';
     position: absolute;
     width: 80px;
-    height: 2px;
+    height: 4px;
     left: 0;
     top: 50%;
     transform: translateY(-50%);

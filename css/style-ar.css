@@ -817,9 +817,9 @@ body{
       content: '';
       position: absolute;
       width: 80px;
-      height: 2px;
+      height: 4px;
       right: 0;
-      top: 50%;
+      top: 70%;
       transform: translateY(-50%);
       background: #00ccff
   }
