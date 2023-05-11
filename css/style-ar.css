@@ -178,7 +178,7 @@ body{
   
   /* Start Section-Padding */
   .section_padding{
-      padding: 50px 0;
+      padding: 20px 0;
   }
   .pb_70{
       padding-bottom: 70px;
@@ -1166,9 +1166,9 @@ body{
       background: rgb(30, 57, 83, .7);
       position: relative;
   }
-  .features .single_resume .resume-desc{
+  /* .features .single_resume .resume-desc{
       padding-right: 120px
-  }
+  } */
   .features .single_resume .icon-box{
       position: absolute;
   }
@@ -1181,6 +1181,9 @@ body{
       position: relative;
       margin-bottom: 20px
      } 
+     .section_padding {
+        padding: 10px 0;
+     }
   }
   /* ----------------------------------------------------------------
       [ End Resume ]
