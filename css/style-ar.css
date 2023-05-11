@@ -810,10 +810,10 @@ body{
   }
   .has-before{
       position: relative;
-      padding-right: 90px;
+      /* padding-right: 90px; */
       padding-left: 0;
   }
-  .has-before:before{
+  /* .has-before:before{
       content: '';
       position: absolute;
       width: 80px;
@@ -822,7 +822,7 @@ body{
       top: 70%;
       transform: translateY(-50%);
       background: #00ccff
-  }
+  } */
   .relative{
       position: relative;
   }

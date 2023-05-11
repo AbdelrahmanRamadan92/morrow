@@ -808,9 +808,9 @@ a:hover{
 }
 .has-before{
     position: relative;
-    padding-left: 90px;
+    /* padding-left: 90px; */
 }
-.has-before:before{
+/* .has-before:before{
     content: '';
     position: absolute;
     width: 80px;
@@ -819,7 +819,7 @@ a:hover{
     top: 50%;
     transform: translateY(-50%);
     background: #00ccff
-}
+} */
 .relative{
     position: relative;
 }
